@@ -3,6 +3,7 @@ class BankAccount:
         self.name = name
         self.balance = balance
         self.transactions = []
+        
     def deposit(self, amount):
         self.balance += amount
         self.transactions.append(f"Deposited ₹{amount}")
